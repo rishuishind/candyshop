@@ -7,7 +7,6 @@ const FormContextProvider = props => {
         setItems((prev) => {
             return [...prev, { name: obj.name, price: obj.price }]
         })
-        console.log(typeof (items));
     }
     const formContext = {
         candies: items,
